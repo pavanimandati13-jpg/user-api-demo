@@ -1,16 +1,70 @@
-# React + Vite
+# User API Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React.js application that fetches user information from a public REST API and displays the data in a structured and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**[View the Live Application](YOUR-LIVE-LINK)**
 
-## React Compiler
+## 💻 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**[View Source Code on GitHub](https://github.com/pavanimandati13-jpg/user-api-demo)**
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📌 Project Overview
+
+The **User API Demo** is a React-based web application developed to understand how React can communicate with an external API and display dynamically fetched data.
+
+The application uses the JSONPlaceholder REST API to retrieve user information and displays details such as:
+
+- User ID
+- Name
+- Username
+- Email
+
+The project also demonstrates how to handle loading and error states while fetching data from an API.
+
+---
+
+## ✨ Features
+
+- Fetches user data from a REST API
+- Displays users in a structured table
+- Shows User ID
+- Shows Name
+- Shows Username
+- Shows Email
+- Displays a loading message while data is being fetched
+- Handles API errors
+- Dynamically renders API response data
+- Uses React Hooks
+- Simple and user-friendly interface
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend development |
+| JavaScript | Application logic |
+| JSX | UI development |
+| Vite | Development and build tool |
+| HTML5 | Page structure |
+| CSS3 | Styling |
+| REST API | Fetching user data |
+| JSON | API response format |
+| Git | Version control |
+| GitHub | Source code management |
+
+---
+
+## 🔗 API Used
+
+This project uses the **JSONPlaceholder** public REST API.
+
+API endpoint:
+
+```text
+https://jsonplaceholder.typicode.com/users
