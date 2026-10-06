@@ -4,11 +4,12 @@ A React.js application that fetches user information from a public REST API and 
 
 ## 🌐 Live Demo
 
-**[View the Live Application](YOUR-LIVE-LINK)**
+ https://pavanimandati13-jpg.github.io/user-api-demo/
 
 ## 💻 GitHub Repository
 
-**[View Source Code on GitHub](https://github.com/pavanimandati13-jpg/user-api-demo)**
+https://github.com/pavanimandati13-jpg/user-api-demo/
+
 
 ---
 
